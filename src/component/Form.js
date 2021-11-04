@@ -51,7 +51,7 @@ const Form = (props) => {
           onChange={handleConfirmPassword}
         />
 
-        <input type="submit" value="Register" />
+        <input type="submit" value="Register" className="submit-btn" />
       </form>
     </div>
   );
